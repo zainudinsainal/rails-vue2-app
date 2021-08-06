@@ -25,6 +25,15 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# A fast JSON parser and Object marshaller as a Ruby gem.
+gem 'oj'
+
+# The only strictly-required gem
+gem 'graphiti'
+
+# For automatic ActiveRecord pagination
+gem 'kaminari'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
